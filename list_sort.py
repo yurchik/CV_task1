@@ -1,6 +1,3 @@
-import operator
-
-
 def handle_list_of_tuples(list):
     return sorted(sorted(list, key = lambda elem1: elem1[3:], reverse=True), key = lambda elem2: elem2[:2])
 
